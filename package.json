@@ -4,9 +4,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href=/dist/andar-de-baixo/",
+    "build": "ng build --base-href=/dist",
     "watch": "ng build --watch --configuration development",
-    "ghpages": "npx angular-cli-ghpages --dir=dist/andar-de-baixo --no-silent",
+    "ghpages": "npx angular-cli-ghpages --dir=/dist --no-silent",
     "deploy": "npm run build && npm run ghpages",
     "test": "ng test"
   },
